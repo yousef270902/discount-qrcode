@@ -68,7 +68,7 @@ Object.keys(products).forEach((id) => {
 
   // Generate QR code pointing to discount page
   const qr = new QRCode(qrDiv, {
-    text: `/discount-qr/discount.html?product=${id}`,
+    text: `/discount-qrcode/discount.html?product=${id}`,
     width: 80,
     height: 80
   });
